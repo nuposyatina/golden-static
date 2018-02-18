@@ -10,24 +10,28 @@ body {
 
 header {
   position: relative;
-  background-image: url("../img/Background Image2.jpg");
+  background-image: url("http://static.botmother.com/ct/graduate/background_image.jpg");
   background-position: 0 -43px;
   background-repeat: no-repeat;
   color: white;
 }
 
-/* .filter { todo
+header > * {
+  position: relative;
+  z-index: 10;
+}
+
+.filter {
   position:absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1;
+  z-index: 5;
   background-color: rgba(0,0,0,0.5);
-} */
+}
 
 nav {
-  position: relative;
   width: 940px;
   margin: 0 auto;
   padding-top: 35px;
@@ -90,12 +94,14 @@ h1 {
 
 
 
-.promo p {
+.promo-subtitle {
   padding-top: 15px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 73px;
+  font-size: 74px;
   font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: -2px;
+  color: white;
 }
 
 button {
@@ -118,19 +124,122 @@ button {
   width: 940px;
   margin: 0 auto;
   text-align: center;
+  padding-bottom: 102px;
 }
 
 h2 {
-  padding-top: 110px;
+  padding-top: 108px;
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: -2px;
 }
 
 p {
-  padding-top: 5px;
+  padding-top: 3px;
   font-family: 'Vollkorn', serif;
   font-size: 20px;
+  color: #777777;
 }
 
+.services-items {
+  position: relative;
+  margin-top: 50px;
+  text-align: justify;
+  box-sizing: border-box;
+}
+
+.services-items:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.services-item {
+  display: inline-block;
+  width: 277px;
+  text-align: center;
+}
+
+.item-logo {
+  box-sizing: border-box;
+  width: 73px;
+  height: 73px;
+  margin: 22px auto;
+  border: 3px solid #fed136;
+  border-radius: 50%;
+  background-image: url(http://static.botmother.com/ct/graduate/css_sprites.png);
+}
+
+.services-item:nth-child(1) .item-logo {
+  background-position: -4px -4px; 
+}
+
+.services-item:nth-child(2) .item-logo {
+  background-position: -79px -1px; 
+}
+
+.services-item:nth-child(3) .item-logo {
+  background-position: 2px -79px; 
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.services-item p {
+  padding-top: 12px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #777777;
+}
+
+.portfolio {
+  width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 50px;
+  background-color: #f7f7f7;
+}
+
+.portfolio-items {
+  width: 940px;
+  margin: 74px auto 0;
+  position: relative;
+  text-align: justify;
+  box-sizing: border-box;
+}
+
+.portfolio-items:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.portfolio-item {
+  vertical-align: top;
+  display: inline-block;
+  width: 290px;
+  text-align: center;
+  margin-bottom: 55px;
+  background-color: white;
+}
+.portfolio-pic {
+  width: 290px;
+  height: 300px;
+}
+
+.portfolio-item h3 {
+  padding-top: 20px;
+}
+
+.portfolio-item p {
+  padding-bottom: 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
