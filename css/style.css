@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  position: relative;
+  background-image: url("../img/Background Image2.jpg");
+  background-position: 0 -43px;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+/* .filter { todo
+  position:absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(0,0,0,0.5);
+} */
+
+nav {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+  padding-top: 35px;
+  text-align: justify;
+  box-sizing: border-box;
+  font-size: 0;
+}
+
+.logo {
+  padding-left: 7px;
+  padding-bottom: 4px;
+  vertical-align: bottom;
+}
+
+nav:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.menu {
+  position: relative;
+  display: inline-block;
+  width: 485px;
+  text-align: justify;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.menu:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.menu li {
+  display: inline-block;
+  width: auto;
+  padding: 15px 0 0 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  /* font-weight: 600; */
+  text-transform: uppercase;
+  vertical-align: top;
+}
+
+.promo {
+  width: 940px;
+  margin: 180px auto 0;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 15px;
+  font-family: 'Vollkorn', serif;
+  font-size: 46.5px;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+
+
+.promo p {
+  padding-top: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 73px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+button {
+  display: inline-block;
+  width: 240px;
+  height: 65px;
+  margin: 45px auto 158px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #fed136;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.services {
+  width: 940px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  padding-top: 110px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p {
+  padding-top: 5px;
+  font-family: 'Vollkorn', serif;
+  font-size: 20px;
+}
+
