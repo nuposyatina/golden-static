@@ -243,3 +243,290 @@ h3 {
   font-size: 16px;
   letter-spacing: 1px;
 }
+
+.about {
+  width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 26px;
+}
+
+.about-items {
+  width: 940px;
+  margin: 74px auto 0;
+  position: relative;
+  text-align: justify;
+  box-sizing: border-box;
+  font-size: 0;
+}
+
+.about-items:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.about-item {
+  vertical-align: top;
+  display: inline-block;
+  width: 340px;
+  margin-bottom: 93px;
+}
+
+.about-item p {
+  font-family: 'Roboto Slab', serif;
+  font-size: 13px;
+  /* letter-spacing: 0.1px;
+  padding-top: 13px;
+  line-height: 1.7; */
+  color: #777777;
+  /* padding-right: 2px; */
+}
+
+.about-item h3 {
+  padding-top: 7px;
+  letter-spacing: -0.4px;
+  padding-right: 2px;
+}
+
+.about-item .date {
+  padding-top: 4px;
+  padding-right: 4px;
+  text-transform: uppercase;
+  letter-spacing: -0.2px;
+}
+
+.about-item:nth-child(3n+2) {
+  width: 182px;
+  height: 182px;
+}
+
+.about-item:nth-child(3n+2) img {
+  width: 182px;
+  height: 182px;
+  border-radius: 50%;
+  border: 7px solid #f7f7f7;
+  box-sizing: border-box;
+}
+
+.about-item:nth-child(6n+1) p {
+  letter-spacing: 0.1px;
+  padding-top: 11px;
+  line-height: 1.7;
+  padding-right: 3px;
+}
+
+.about-item:nth-child(6n) p {
+  letter-spacing: .1px;
+  padding-top: 13px;
+  line-height: 1.7;
+  padding-left: 2px;
+}
+
+
+.about-item:nth-child(6n+1) {
+  text-align: right;
+}
+
+.about-item:nth-child(6n) {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.continue {
+  background-color: #fed136;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  text-align: center;
+   box-sizing: border-box;
+  color: white;
+
+  text-transform: uppercase;
+  padding: 40px 0;
+  /* border-color: white; */
+  border: 7px solid #f7f7f7;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 25px;
+  
+}
+
+/* .continue p {
+  display: inline-block;
+  width: 110px;
+   position: absolute;           
+   top: 50%;                      
+   transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+  text-transform: uppercase;
+} */
+
+.team {
+  width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 50px;
+  background-color: #f7f7f7;
+}
+
+
+.team h2 {
+  margin-top: 3px;
+  letter-spacing: -2.5px;
+}
+
+.team > p {
+  padding-top: 10px;
+}
+
+.team-items {
+  width: 778px;
+  margin: 74px auto 0;
+  position: relative;
+  text-align: justify;
+  box-sizing: border-box;
+}
+
+.team-items:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.team-item {
+  vertical-align: top;
+  display: inline-block;
+  width: 30%;
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+.team-photo {
+  display: inline-block;
+  margin: 0;
+  background-color: black;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+}
+
+.social-btn {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+    background-color: #f7f7f7;
+  border: 3px solid black;
+  border-radius: 50%;
+  background-image: url(http://static.botmother.com/ct/graduate/css_sprites.png);
+  
+}
+
+.twitter-btn {
+  background-position: -155px -5px;
+}
+
+.facebook-btn {
+  background-position: -2px -152px;
+}
+
+.pinterest-btn {
+  background-position: -68px -80px;
+}
+
+.google-plus-btn {
+  background-position: -153px -55px;
+}
+
+.team-about {
+  text-align: center;
+}
+
+.clients {
+  width: 940px;
+  margin: 74px auto 0;
+  position: relative;
+  text-align: justify;
+  box-sizing: border-box;
+  font-size: 0;
+}
+
+.clients:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.clients-item {
+  vertical-align: top;
+  display: inline-block;
+  width: 25%;
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+.contacts {
+  text-align: center;
+  background-color: black;
+}
+
+form {
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 0;
+  padding: 10px;
+}
+.contacts h2 {
+  color: white;
+}
+
+.message {
+  display: inline-block;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.userdata {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.userdata input {
+  width: 100%;
+  margin: 10px auto;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+}
+
+footer {
+  background-color: #f7f7f7;
+  padding: 10px;
+}
+
+address {
+  display: inline-block;
+  margin-right: 100px;
+  vertical-align: middle;
+}
+
+.social-btns {
+  display: inline-block;
+    vertical-align: middle;
+}
+
+footer .social-btn {
+  background-color: black;
+}
+
+.copyright {
+  width: 1000px;
+  margin: 0 auto;
+}
